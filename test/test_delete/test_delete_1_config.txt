@@ -1,0 +1,11 @@
+rangeservers 1 ubuntu
+serversperhost 1
+commtype 1
+path /tmp/testdir
+mode 1
+numkeys 1
+keytype 0
+keymaxlen 10
+keymaxpad 2
+datamaxlen 256
+maxrecords 100

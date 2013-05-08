@@ -1,0 +1,7 @@
+* open
+* find 1 MDHIM_EQ akey0
+* find 1 MDHIM_EQ fkey0
+* find 1 MDHIM_EQ fkey0
+* find 1 MDHIM_EQ fkey0
+* flush
+* finalize 0

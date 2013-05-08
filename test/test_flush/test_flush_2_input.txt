@@ -1,0 +1,8 @@
+* open
+1 insert 5 akey0 adata0
+1 insert 5 bkey0 bdata0
+1 insert 5 ckey0 cdata0
+1 insert 5 dkey0 ddata0
+* flush
+1 get 1 MDHIM_LXL
+* finalize 0

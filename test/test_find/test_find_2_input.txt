@@ -1,0 +1,16 @@
+* open
+1 find 1 MDHIM_EQ qkey0
+1 find 1 MDHIM_GEF qkey0
+1 find 1 MDHIM_GTF qkey0
+1 find 1 MDHIM_LEL qkey0
+1 find 1 MDHIM_LTL qkey0
+1 find 1 MDHIM_EQ 7
+1 find 1 MDHIM_EQF 7
+1 find 1 MDHIM_GEF 7
+1 find 1 MDHIM_GTF 7
+1 find 1 MDHIM_LEL 7
+1 find 1 MDHIM_LTL 7
+1 find 1 MDHIM_EQ 7
+1 find 1 MDHIM_LTL 1
+* flush
+* finalize 0

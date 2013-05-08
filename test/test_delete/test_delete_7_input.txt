@@ -1,0 +1,12 @@
+* open
+0 insert 5 akey0 adata0 
+0 insert 5 ckey0 cdata0 
+0 insert 5 bkey0 bdata0 
+* flush
+0 get 1 MDHIM_LXL
+0 get 1 MDHIM_PRV
+0 delete 1 ckey0
+* flush
+0 get 1 MDHIM_LXL
+0 get 1 MDHIM_PRV
+* finalize 0

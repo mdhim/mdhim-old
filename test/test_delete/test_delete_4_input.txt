@@ -1,0 +1,23 @@
+* open
+0 insert 5 akey0 adata0 
+0 insert 5 bkey0 bdata0 
+0 insert 5 zkey0 zdata0 
+0 insert 5 ckey0 cdata0 
+0 insert 5 dkey0 ddata0 
+0 insert 5 ekey0 edata0 
+0 insert 5 mkey0 mdata0 
+0 insert 5 lkey0 ldata0 
+* flush
+0 get 1 MDHIM_FXF
+0 get 1 MDHIM_NXT
+0 get 1 MDHIM_NXT
+0 get 1 MDHIM_NXT
+0 get 1 MDHIM_NXT
+0 delete 1 dkey0
+* flush
+0 get 1 MDHIM_FXF
+0 get 1 MDHIM_NXT
+0 get 1 MDHIM_NXT
+0 get 1 MDHIM_NXT
+0 get 1 MDHIM_NXT
+* finalize 0

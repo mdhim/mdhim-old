@@ -1,0 +1,8 @@
+* open
+0 insert 5 akey0 adata0 
+* flush
+0 get 1 MDHIM_FXF
+0 delete 1 akey0
+* flush
+0 get 1 MDHIM_FXF
+* finalize 0

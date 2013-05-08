@@ -1,0 +1,7 @@
+* open
+0 insert 5 akey0 adata0
+0 insert 5 bkey0 bdata0
+0 insert 5 bkey0 bdata2
+0 insert 5 ckey0 bcata0
+* flush
+* finalize 0
